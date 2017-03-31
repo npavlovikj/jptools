@@ -12,12 +12,6 @@ setup(name='jptools',
       author_email='gurtowsk@cshl.edu',
       license='GPL',
       packages=['jptools'],
-      install_requires = [
-        "h5py >= 2.3.1",
-        "jbio >= 0.1", 
-        "pbcore >= 0.6.3",
-        "pbtools.pbdagcon >= 0.2.3",
-        ],
       entry_points = {
         'console_scripts': [
             'coverageFromBlast6 = jptools.coverage:coverage_from_blast6',
